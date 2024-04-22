@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsup",
-    "publish:local": "npm run build && yalc push"
+    "publish:local": "npm run build && yalc push",
+    "git:push": "git add . && git commit -m \"up\" && git push"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +20,8 @@
     "tailwindcss": "^3.4.3",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "antd": "^5.16.4"
   }
 }
