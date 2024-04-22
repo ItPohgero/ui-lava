@@ -4,18 +4,18 @@ export interface MappingMenuModuleProps {
     group: number
     name: string
     key: string
-    children?: ChildMenu[]
+    children?: Menu[]
 }
 
-export interface ChildMenu {
+export interface Menu {
     type: string
     title: string
     icon: string
     index: number
-    menus?: SubChildMenu[]
+    menus?: SubMenu[]
 }
 
-export interface SubChildMenu {
+export interface SubMenu {
     type: string
     title: string
     screen: string
