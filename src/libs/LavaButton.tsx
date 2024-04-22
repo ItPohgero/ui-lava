@@ -1,5 +1,4 @@
 import { Button } from 'antd';
-import "../global.css";
 
 export default function LavaButton() {
     return (

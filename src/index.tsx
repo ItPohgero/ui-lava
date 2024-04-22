@@ -1,7 +1,6 @@
 import "./global.css";
+import LavaButton from "./libs/LavaButton";
+import LavaIcon from "./libs/LavaIcon/Main";
+import LavaAppLayout from "./libs/LavaAppLayout/Main";
 
-const LavaUI = () => {
-    return <div className="lava-p-4 lava-text-white lava-bg-red-800 lava-w-max lava-rounded-full">Lava UI</div>;
-};
-
-export default LavaUI;
+export { LavaButton, LavaIcon, LavaAppLayout }

@@ -1,6 +1,6 @@
 {
   "name": "ui-lava",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -9,6 +9,9 @@
     "git:push": "git add . && git commit -m \"up\" && git push"
   },
   "keywords": [],
+  "files": [
+    "/dist"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -22,6 +25,9 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "antd": "^5.16.4"
+    "antd": "^5.16.4",
+    "react-icons": "^5.1.0",
+    "react-if": "^4.1.5",
+    "styled-components": "^6.1.8"
   }
 }
