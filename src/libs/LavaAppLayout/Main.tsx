@@ -112,7 +112,7 @@ export function LavaAppLayout(props: PropsWithChildren<Props>) {
                     collapsed={collapsed}
                     onCollapse={() => setCollapsed(!collapsed)}
                 >
-                    <div className="flex items-center justify-center">
+                    <div className="lava-flex lava-items-center lava-justify-center">
                         {!collapsed && (
                             <div>
                                 <Image
@@ -127,7 +127,7 @@ export function LavaAppLayout(props: PropsWithChildren<Props>) {
                         <If condition={!collapsed}>
                             <Then>
                                 <button
-                                    className="flex h-7 w-7 items-center justify-center rounded bg-white/30"
+                                    className="lava-flex lava-h-7 lava-w-7 lava-items-center lava-justify-center lava-rounded lava-bg-white/30"
                                     onClick={() => setCollapsed(!collapsed)}
                                 >
                                     <LavaIcon size={12} icon="arrowLeft" color="white" />
@@ -135,7 +135,7 @@ export function LavaAppLayout(props: PropsWithChildren<Props>) {
                             </Then>
                             <Else>
                                 <button
-                                    className="mt-8 flex h-7 w-7 items-center justify-center rounded bg-white/30"
+                                    className="lava-mt-8 lava-flex lava-h-7 lava-w-7 lava-items-center lava-justify-center lava-rounded lava-bg-white/30"
                                     onClick={() => setCollapsed(!collapsed)}
                                 >
                                     <LavaIcon size={12} icon="arrowRight" color="white" />
